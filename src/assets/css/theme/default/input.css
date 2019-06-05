@@ -1,0 +1,129 @@
+/*去掉上下箭头*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+/*带边的输入框：指定.el-select或者.el-input的宽高可以控制大小*/
+input, textarea, input[class='el-input__inner'] {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: none;
+
+  font-size: 14px;
+  font-style: normal;
+  color: #333;
+  text-align: left;
+  border: 1px solid #D8D8D8;
+  border-radius: 2px;
+  padding: 0 .71em;
+  position: relative;
+  -webkit-transition: border .2s;
+  -moz-transition: border .2s;
+  -ms-transition: border .2s;
+  -o-transition: border .2s;
+  transition: border .2s;
+
+  width: 100%;
+  height: 100%;
+}
+
+.el-select>.el-input {
+  width: 100%;
+  height: 100%;
+}
+.el-input.el-input--suffix {
+  /*width: 259px;*/
+  /*height: 34px;*/
+}
+
+/*Chrome黄底*/
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder, .el-input input[class='el-input__inner']::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  text-align: left;
+  font-style: normal;
+  /*font-size: 14px;*/
+  color: #999;
+}
+input:-moz-placeholder, textarea:-moz-placeholder, .el-input input[class='el-input__inner']:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  text-align: left;
+  font-style: normal;
+  /*font-size: 14px;*/
+  color: #999;
+}
+input::-moz-placeholder, textarea::-moz-placeholder, .el-input input[class='el-input__inner']::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  text-align: left;
+  font-style: normal;
+  /*font-size: 14px;*/
+  color: #999;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder, .el-input input[class='el-input__inner']:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  text-align: left;
+  font-style: normal;
+  /*font-size: 14px;*/
+  color: #999;
+}
+input:focus, textarea:focus, input[class='el-input__inner']:focus {
+  outline: none;
+  border: 1px solid #0BB2FE;
+}
+input:disabled,  textarea:disabled {
+  background: rgb(242, 242, 242);
+}
+
+/*仅有底边的输入框、下拉框*/
+input[class='bh-input_bottom'], .bh-input_bottom.el-input input[class='el-input__inner'], .bh-input_bottom.el-select .el-input input[class='el-input__inner'] {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  padding-right: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bootm: 1px solid #D8D8D8;
+}
+.bh-input_bottom:focus {
+  outline: none;
+  border-bottom: 1px solid #0BB2FE;
+}
+.bh-input_bottom.el-select .el-input i[class='el-select__caret el-input__icon el-icon-arrow-up']::before, .bh-input_bottom.el-select .el-input i[class='el-select__caret el-input__icon el-icon-arrow-up is-reverse']::before {
+  content: '\E60C';
+  color: #666;
+}
+
+/*switch*/
+.el-switch::before {
+  font-size: .8em;
+  content: '开';
+  color: #FFF;
+  position: absolute;
+  left: .4em;
+  z-index: 1;
+}
+
+.el-switch::after {
+  font-size: .8em;
+  content: '关';
+  color: #999;
+  position: absolute;
+  right: .4em;
+}
+
+.el-switch__core::after {
+  z-index: 2;
+}
+
+.el-input.el-input--suffix .el-input__inner {
+  line-height: normal;
+}

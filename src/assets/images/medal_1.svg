@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 29 38" style="enable-background:new 0 0 29 38;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CB472C;}
+	.st1{fill:none;stroke:#FFE597;}
+	.st2{opacity:0.5853;fill:none;stroke:#FFFFFF;stroke-width:0.7;stroke-linecap:round;enable-background:new    ;}
+	.st3{fill:#FDD254;}
+	.st4{fill:#F7A93B;}
+	.st5{fill:#FCAF3F;}
+	.st6{fill:#FFFFFF;}
+	.st7{font-family:'PingFangSC-Medium-GBpc-EUC-H';}
+	.st8{font-size:14px;}
+</style>
+<title>1 icon</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="场外交易-暂无订单记录" transform="translate(-221.000000, -156.000000)">
+		<g id="推荐交易商" transform="translate(15.000000, 89.000000)">
+			<g id="交易商" transform="translate(35.000000, 65.000000)">
+				<g id="_x31__1_" transform="translate(0.000000, 1.000000)">
+					<g id="_x31_-icon" transform="translate(171.000000, 0.300003)">
+						<g id="Group-9">
+							<polygon id="Path-2" class="st0" points="16.3,0.8 29,0.8 20.6,12 8,12 							"/>
+							<path id="Rectangle-3" class="st1" d="M9.5,9.1h10c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-10c-1.7,0-3-1.3-3-3l0,0
+								C6.5,10.4,7.8,9.1,9.5,9.1z"/>
+							<polygon id="Path-2-Copy" class="st0" points="13.6,0.8 0.9,0.8 7.7,12 20.3,12 							"/>
+							<path id="Path-3" class="st2" d="M9.6,0.8l6.1,11.1"/>
+							<path id="Path-3-Copy" class="st2" d="M5.1,0.8l6.6,11.1"/>
+						</g>
+						<g id="圆" transform="translate(2.500000, 13.000000)">
+							<circle id="Oval-2" class="st3" cx="12.5" cy="12.5" r="12.5"/>
+							<circle id="Oval-2-Copy" class="st4" cx="12.5" cy="12.5" r="10.5"/>
+							<circle id="Oval-2-Copy-2" class="st5" cx="12.5" cy="12.5" r="8.5"/>
+							<text transform="matrix(1 0 0 1 9.144 17.4)" class="st6 st7 st8">1</text>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

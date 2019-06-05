@@ -1,0 +1,35 @@
+/*font-size*/
+.ft12{font-size:12px;}
+.ft13{font-size:13px;}
+.ft14{font-size:14px;}
+.ft15{font-size:15px;}
+.ft16{font-size:16px;}
+.ft18{font-size:18px;}
+.ft20{font-size:20px;}
+.ft22{font-size:22px;}
+.ft24{font-size:24px;}
+.ft26{font-size:26px;}
+.ft28{font-size:28px;}
+.ft30{font-size:30px;}
+.ft32{font-size:32px;}
+.ft34{font-size:34px;}
+
+/*超出一行省略...*/
+.apostrophe-one{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;}
+.apostrophe-two{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;}
+.apostrophe-three{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;}
+
+/* 字体加粗 */
+.bold{font-weight: bold;}
+
+/*字体居中*/
+.center{text-align: center;}
+
+/* 字体强制换行 */
+.fontLine{white-space:normal;word-wrap:break-word;}
+
+/*禁止选中字体*/
+.not-select {-moz-user-select: none; /*火狐*/-webkit-user-select: none; /*webkit浏览器*/-ms-user-select: none; /*IE10*/-khtml-user-select: none; /*早期浏览器*/user-select:none;}
+
+
+

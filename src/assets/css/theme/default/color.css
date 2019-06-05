@@ -1,0 +1,34 @@
+/*文字颜色:dark深色、light浅色、dusky柔和、solid纯正色、rich艳丽*/
+/*背景色*/
+.bg-fff{background-color: #fff;}
+.bg-ddd{background-color: #ddd;}
+.bg-999{background-color: #999;}
+.bg-F2F2F2{background-color: #F2F2F2;}
+.bg-F4FBFF{background-color: #F4FBFF;}
+
+/*主要的背景色，除了首页以外的头部导航背景色*/
+.bh-background_main {
+  background: #2C3253;
+}
+
+/*字体颜色*/
+.color-333{color: #333;}
+.color-666{color: #666;}
+.color-999{color: #999;}
+.color-fff{color: #fff;}
+.color-0BB2FE{color: #0BB2FE;}
+
+/*提示文字颜色*/
+.bh-color_prompt {
+  color: #FF7C44;
+}
+
+/*被选中时颜色*/
+.bh-color_select {
+  color: #0BB2FE;
+}
+
+/*鼠标划过时的颜色*/
+.bh-color_hover {
+  color: #0BB2FE;
+}

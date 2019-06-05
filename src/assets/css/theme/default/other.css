@@ -1,0 +1,359 @@
+/*安全等级*/
+.bh-grade {
+  display: inline-block;
+  width: 150px;
+  height: 17px;
+  background: #f1efef;
+  border-radius: 17px;
+  line-height: 17px;
+}
+
+.bh-grade::before {
+  display: inline-block;
+  height: 17px;
+  border-radius: 17px;
+  text-align: center;
+  line-height: 17px;
+  font-size: 12px;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -ms-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms;
+}
+
+.bh-grade_low::before {
+  font-family: PingFangSC-Regular;
+  content: '低';
+  width: 50px;
+  color: #ea3929;
+  background: #ff9090;
+}
+
+.bh-grade_medium::before {
+  content: '中';
+  width: 100px;
+  color: #f78754;
+  background: #ffe0d2;
+}
+
+.bh-grade_high::before {
+  content: '高';
+  width: 150px;
+  color: #14d460;
+  background: #acffcc;
+}
+
+/*表格*/
+table[class='bh-table'] {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  border-collapse: collapse;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bh-table tr {
+  height: 38px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bh-table td {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bh-table thead {
+}
+
+.bh-table thead tr {
+  background: #f2f2f2;
+  font-size: 12px;
+  color: #666;
+  border-left: 1px solid #D8D8D8;
+  border-right: 1px solid #D8D8D8;
+  border-top: 1px solid #D8D8D8;
+}
+
+.bh-table tbody td {
+  font-size: 12px;
+  color: #333;
+  border: 1px solid #D8D8D8;
+}
+
+div.el-table {
+  font-size: 12px;
+  color: #333;
+}
+
+div.el-table.bh-table_header-white thead tr {
+  background: #FFF;
+}
+
+div.el-table.bh-table_clear-padding thead th, div.el-table.bh-table_clear-padding td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+div.el-table.bh-table_body-whites td, div.el-table.bh-table_body-whites thead th {
+  padding: 2px;
+  border-left:1px solid #d8d8d8;
+  height:29px;
+  line-height: normal;
+}
+div.el-table thead tr {
+  color: #666;
+  background: #f2f2f2;
+  font-size: 12px;
+  border-left: 1px solid #D8D8D8;
+  border-right: 1px solid #D8D8D8;
+  border-top: 1px solid #D8D8D8;
+}
+
+div.el-table thead tr th {
+  background-color: transparent;
+  border: none;
+  font-weight: 400;
+}
+
+/*序号*/
+.bh-serial-number {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  padding: .2em;
+  text-align: center;
+  border-radius: 999px;
+  background-color: #e0f5ff;
+  color: #0bb2fe;
+}
+
+/*粒子*/
+canvas[class='particles-js-canvas-el'] {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*场外交易 消息提示样式更改*/
+.el-tooltip__popper.is-light{
+  border: 1px solid #FFFFFF !important;
+  background: #FFFFFF !important;
+  color:#666666;
+  box-shadow:0 2px 7px 0 rgba(0,0,0,0.24);
+}
+/*场外交易 消息提示样式更改*/
+.el-tooltip__popper .popper__arrow {
+  border-width: 0px !important;
+}
+/*Slider滑块*/
+.bh-slider .bh-slider_content .el-slider__runway {
+  height: 2px;
+}
+.bh-slider .bh-slider_content .el-slider__runway .el-slider__bar {
+  height: 2px;
+  background-color: #e4e7ed;
+}
+.bh-slider .bh-slider_content .el-slider__runway .el-slider__button {
+  border: none;
+  width: 12px;
+  height: 12px;
+  background-color: #0bb2fe;
+}
+
+/*checkbox复选框*/
+.bh-checkbox .el-checkbox__label {
+  display: none;
+}
+/*首页轮播图里面的轮播点的样式*/
+.bh-home .swiper-pagination{bottom: 30px !important;}
+.bh-home .swiper-pagination-bullet{width:60px;height:4px;background: #35356A;border-radius: 2px;opacity: 1;margin: 0 10px !important;}
+.bh-home .swiper-pagination-bullet-active{background:#56ECFF;}
+
+/*邀请有礼页面*/
+.invite-page .el-pager li{font-size: 16px;color: #666;width: 34px;height: 34px;
+  margin: 0 5px;padding: 0;min-width: auto;line-height: 34px;}
+.invite-table .cell{text-align: center;}
+.invite-swiper .el-carousel__item{width:188px;margin-left: 70px;}
+.invite-qr img{position: absolute;width: 30%;bottom: 13%;left: 35%;background-color: #fff;padding: 2%;border-radius: 5px;}
+.pagesBox .invite-page{font-weight: 400;}
+.pagesBox .invite-page button{margin-top: 3px;}
+.rightBox .el-carousel__container{height: 334px;}
+
+.invite-swiper .el-carousel__item {
+  -webkit-animation: carousel_fade-in 400ms forwards;
+  -o-animation: carousel_fade-in 400ms forwards;
+  animation: carousel_fade-in 400ms forwards;
+}
+.invite-swiper .el-carousel__item.is-in-stage {
+  opacity: 1;
+  animation: none;
+}
+
+/*创新项目页面  进度条*/
+.bh-innovateBox .el-progress{width: 180px;height: 18px;}
+.bh-innovateBox .el-progress-bar__outer{background-color: #fff;border:1px solid #A4A4A4;}
+.bh-innovateBox .el-progress-bar__innerText{opacity: 0;}
+.bh-innovateBox .bh-dialog .icon-close{display: none;}
+.bh-innovateBox .mtAuto .bh-dialog{top: 50%;margin-top: -118.5px;}
+
+@-khtml-keyframes  carousel_fade-in {
+  from {
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+  }
+  to {
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+  }
+}
+@-moz-keyframes  carousel_fade-in {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-ms-keyframes  carousel_fade-in {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-o-keyframes  carousel_fade-in {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes  carousel_fade-in {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes carousel_fade-in {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/*场外交易页面*/
+.otcTrading .swiper-wrapper .swiper-slide{margin-right:15px;}
+.otcTrading .bh-question .el-row{width:100%;height:50px;font-size: 16px; color: #333;background:#fff;box-shadow:0 2px 3px 0 #f2f3f8;line-height: 50px;}
+.otcTrading .bh-question .el-row a{display: inline-block;margin-left: 0px;cursor: pointer;color: #333;font-size: 16px;}
+.otcTrading .bh-serial-number{margin-right: 11px;}
+.otcTrading .el-select{background:#fff;border-radius:4px;height:26px;min-width: 90px;}
+.otcTrading .el-input__icon{line-height: normal;}
+
+/*右块表格*/
+.otcTrading .rightCon .el-table thead tr{border: 0;background: 0;}
+.otcTrading .rightCon .el-table td,.otcTrading .rightCon .el-table th.is-leaf{border-bottom: 0;}
+.otcTrading .rightCon .el-table td,.otcTrading .rightCon .el-table th{padding: 0;}
+.otcTrading .rightCon .el-table th>.cell{color: #999;font-size: 12px;line-height: 17px;}
+.otcTrading .rightCon .el-table .cell{padding: 0;}
+.otcTrading .rightCon .el-table tr{height: 62px;}
+.otcTrading .rightCon div.el-table thead tr th{background-color: #fff;}
+.otcTrading .rightCon .el-table tr:nth-of-type(odd){background-color: #FAFAFA;}
+.otcTrading .rightCon .el-table tr:nth-of-type(even){background-color:#fff;}
+
+.otcTrading .bh-question .el-row{text-align: left;}
+.otcTrading .bh-order .bh-color_select{border-bottom: 1px solid #0BB2FE}
+.otcTrading .el-table__body-wrapper{height: 620px;}
+.otcTrading .rightCon .el-pagination button,.otcTrading .rightCon .el-pagination span:not([class*=suffix]),.otcTrading .rightCon .el-pager li{height: 46px;line-height: 46px;}
+.otcTrading .rightCon .el-row{text-align: center;height:46px; line-height:46px;font-size:14px;color:#999;}
+.otcTrading .rightCon .el-pagination{padding: 0;}
+.otcTrading .el-table--striped .el-table__body tr.el-table__row--striped td{background: 0;}
+
+/*进行中订单input*/
+.eyeBtn .el-input__prefix,.eyeBtn .el-input__suffix{top: 25%;height: auto;cursor: pointer;}
+
+/*所有弹出框的确认框背景色*/
+.el-button--primary{
+  border-color: #0BB2FE !important;background-color: #0BB2FE !important;
+}
+
+/*免费发布交易页面*/
+.btnone .el-radio-button:first-child .el-radio-button__inner{
+  border-radius:25px 0px 0px 25px;
+  height: 50px;
+  line-height: 2;
+}
+.btnone .el-radio-button:last-child .el-radio-button__inner{
+  border-radius:0px 25px 25px 0px;
+  height: 50px;
+  line-height: 2;
+}
+.search_one{
+  border:0 solid #d8d8d8;
+  width:153px;
+  height:22px;
+}
+.search_one .el-input__icon{
+  line-height: 0;
+}
+/*免费发布交易页面-出售价设置*/
+.shopout .el-input-group--prepend .el-input__inner{
+  text-align: center;
+}
+.shopout .el-input-group{width: 180px;height: 37px;}
+.shopout .el-input-group__prepend,.shopout .el-input-group__append{position: relative;width: 50px;height: 37px;padding: 0;line-height: 37px;}
+
+/*element公共样式*/
+.el-select .el-input__icon{line-height: normal;}
+
+/*帮助中心的更多页面*/
+.question_box div.el-table table thead tr{
+  background: #fff;
+}
+.question_box div.el-table table thead th{
+  border: 0;
+}
+
+/*fullExchange页面*/
+/*select*/
+.fullExchange .el-dropdown{width:10%;max-width:160px;height:30px;background-color: #191A42;border-radius:4px;margin-left: 1%;color: #fff;font-size: 20px;}
+.fullExchange .el-dropdown-menu__item{padding: 20px 20px;}
+/*select*/
+.fullExchange .el-select{width:10%;max-width:160px;height:30px;background-color: #191A42;border-radius:4px;margin-left: 1%;}
+.fullExchange .el-select input{background-color: #191A42;color: #fff;font-size: 20px;border: 0;}
+.fullExchange .bh-menu .bh-root{position: relative;}
+/*table*/
+.fullExchange .el-table thead tr{color: #77799C;font-size: 12px;background-color: transparent;border: 0;}
+.fullExchange .el-table td{color: #fff;font-size: 12px;}
+.fullExchange .el-table td, .fullExchange .el-table th.is-leaf{border: 0;}
+.fullExchange .el-table th,.fullExchange .el-table tr{background-color: transparent;}
+.fullExchange .el-table, .fullExchange .el-table__expanded-cell{background-color: transparent;}
+.fullExchange .el-table--enable-row-hover .el-table__body tr:hover>td{background-color:#080934;}
+.fullExchange .el-table td,.fullExchange .el-table th{padding: 0;}
+.fullExchange .el-table .cell, .fullExchange .el-table th div{padding: 0;}
+.fullExchange .el-table::before{height: 0;}
+.fullExchange .noTh .el-table__footer-wrapper, .fullExchange .noTh .el-table__header-wrapper{height: 0;}
+.fullExchange .el-table tr{line-height: 30px;height: 30px;}
+/*input*/
+.fullExchange .contentAll .el-input{height: 44px;width: 100%;background-color: #252548;}
+.fullExchange .contentAll .el-input__inner{background-color: transparent;border: 0;color: #fff;font-size: 16px;padding-left: 75px;padding-right: 50px;}
+/*checkbox*/
+.fullExchange .el-checkbox__inner{background-color: transparent;line-height: 19px;}
+.fullExchange .el-checkbox__input.is-checked+.el-checkbox__label,.fullExchange .el-checkbox{color: #fff}

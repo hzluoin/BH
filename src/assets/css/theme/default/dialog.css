@@ -1,0 +1,22 @@
+/*标题头*/
+div[class="el-message-box__header"] button{
+  display: none;
+}
+
+div[class="el-message-box__title"] {
+  text-align: center;
+}
+
+/*中间消息*/
+div[class="el-message-box__message"] {
+  text-align: center;
+}
+
+/*底部按钮*/
+div[class="el-message-box__btns"] {
+  text-align: center;
+}
+
+div[class="el-message-box__btns"] button {
+  background-color: #0BB2FE;
+}

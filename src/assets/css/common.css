@@ -1,0 +1,55 @@
+html, body{
+  width: 100%;
+  min-width: 1366px;
+  height: 100%;
+  font-size: 12px;
+  font-family: PingFangSC-Regular;
+}
+
+body, #app {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/*文字垂直居中*/
+.bh-align-vertical__middle {
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bh-align_center {
+  text-align: center;
+}
+
+/*LOGO大小*/
+.bh-logo_white {
+  width: 87px;
+  height: 41px;
+}
+
+span[id*='cnzz'] {
+  display: none;
+}
+
+a, a:link {
+  text-decoration: none;
+}

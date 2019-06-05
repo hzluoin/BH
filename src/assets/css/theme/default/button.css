@@ -1,0 +1,122 @@
+/*UI说：按钮的外观大小都是统一：小按钮字体12px，标准14px*/
+button {
+  border-radius: 2px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  /*去边框*/
+  outline: 0 none !important;
+  blr: expression(this.onFocus=this.blur());
+  /*禁止选中字体*/
+  -moz-user-select: none; /*火狐*/
+  -webkit-user-select: none; /*webkit浏览器*/
+  -ms-user-select: none; /*IE10*/
+  -khtml-user-select: none; /*早期浏览器*/
+  user-select:none;
+  /*隐藏超出部分*/
+  overflow: hidden;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+/*按钮标准样式*/
+.bh-btn_primary {
+  font-size: 14px;
+  color: #FFF;
+  border: none;
+  background-color: #0BB2FE;
+  width: 75px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+.bh-btn_primary__small {
+  font-size: 12px;
+  color: #FFF;
+  border: none;
+  background-color: #0BB2FE;
+  width: 68px;
+  height: 22px;
+  border-radius: 4px;
+}
+
+.bh-btn_primary_lg {
+  border-radius: 4px;
+  border: none;
+  color: #FFF;
+  background: #0BB2FE;
+
+  width: 259px;
+  height: 34px;
+}
+
+/*按钮disabled时候样式*/
+.bh-btn_primary:disabled, .bh-btn_primary__small:disabled, .bh-btn_primary_lg:disabled {
+  border: 1px solid #D8D8D8;
+  color: #999;
+  background-color: #FFF;
+  cursor: not-allowed;
+}
+.bh-btn_primary:disabled{
+  border: 1px solid #0BB2FE;
+  color: #fff;
+  background-color: #0BB2FE;
+  cursor: not-allowed;
+  border-radius: 4px;
+}
+
+.bh-btn_plain {
+  color: #0BB2FE;
+  background-color: #FFF;
+  border: 1px solid #0BB2FE;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 68px;
+  height: 22px;
+}
+
+.bh-btn_plain__large {
+  color: #0BB2FE;
+  background-color: #FFF;
+  border: 1px solid #0BB2FE;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 90px;
+  height: 34px;
+  font-size: 14px;
+}
+
+.bh-btn_plain:disabled, .bh-btn_plain__large:disabled {
+  cursor: not-allowed;
+}
+
+.bh-btn_text {
+  border: none;
+  background: none;
+  color: #FFF;
+  padding: 0;
+}
+
+.bh-btn_text:hover {
+  color: #0BB2FE !important;
+}
+
+.bh-btn_text:disabled {
+  cursor: not-allowed;
+}
+
+.bh-btn_link {
+  font-size: 14px;
+  border: none;
+  background: none;
+  color: #0BB2FE;
+  border-bottom: 1px solid #0BB2FE;
+}
